@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/2Estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formulario H1</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html" target="_blank">Inicio</a>&nbsp;</li>
+    <li><a href="texto.html" target="_blank">Estilos de Texto</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="Tablas.html">Tablas</a></li>
+    <li><a href="Imagenes.html.html">Imágenes</a></li>
+    <li><a href="Audios.html">Audio</a></li>
+    <li><a href="Video.html">Video</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario de ingresos o autentificación</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, mollitia at amet hic similique dolorum nobis cupiditate ducimus molestias. Nulla officiis tempora similique earum autem fugiat velit totam aspernatur, vel deserunt eius enim neque esse molestiae numquam libero fuga nihil sequi magni accusamus asperiores illum, voluptatem praesentium quos. Quia, magnam.</p>
+	  <form action="Procesamiento.html" method="get">
+	  	<label>Usuario:</label>
+	  	<input type="text" id="Usuario" name="Usuario">
+	  	<label>Contraseña:</label>
+	  	<input type="password" id="contraseña" name="contraseña">
+	  	<input type="Submit" value="Enviar">
+	  </form>
+  </section>
+  <section>
+    <h2>Formulario entrevista</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, mollitia at amet hic similique dolorum nobis cupiditate ducimus molestias. Nulla officiis tempora similique earum autem fugiat velit totam aspernatur, vel deserunt eius enim neque esse molestiae numquam libero fuga nihil sequi magni accusamus asperiores illum, voluptatem praesentium quos. Quia, magnam.</p>
+<form id="form1" name="form1" method="post">
+  <h4>Encuesta</h4>
+<label for="number">
+  Edad:</label>
+<input name="number" type="number" id="number" max="50" min="18">
+</form>
+<label>Género&nbsp;</label>
+<p>
+<label>
+  <input type="radio" name="RadioGroup1" value="femenino" id="RadioGroup1_0">
+  Femenino</label>
+<br>
+<label>
+  <input type="radio" name="RadioGroup1" value="masculino" id="RadioGroup1_1">
+    Masculino</label>
+  <br>
+  <label>¿Qué tipo de música escuchas?</label>
+</p>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="Rock" id="Muacutesica_0">
+      Rock</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="Punk" id="Muacutesica_1">
+      Punk</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="Jazz" id="Muacutesica_2">
+      Jazz</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="Garage Rock" id="Muacutesica_3">
+      Garage Rock</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="Pop" id="Muacutesica_4">
+      Pop</label></td>
+  </tr>
+</table>
+<label for="select">¿De qué país eres?&nbsp;</label>
+<select name="select" id="select">
+  <option>México</option>
+  <option>España</option>
+  <option>Brazil</option>
+</select>
+	  <br>
+<input type="Submit" value="Enviar">
+</section>
+<section>
+    <h2>Formulario de comentario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, mollitia at amet hic similique dolorum nobis cupiditate ducimus molestias. Nulla officiis tempora similique earum autem fugiat velit totam aspernatur, vel deserunt eius enim neque esse molestiae numquam libero fuga nihil sequi magni accusamus asperiores illum, voluptatem praesentium quos. Quia, magnam.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+      <br><br>
+      <label for="textarea">Comentario</label>
+    <textarea name="textarea" cols="20" rows="5" id="textarea">Escribe tu comentario..</textarea>
+		<br><br>
+    <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+    
+  </section>
+  <section>
+    <h2>Formulario con 10 preguntas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, mollitia at amet hic similique dolorum nobis cupiditate ducimus molestias. Nulla officiis tempora similique earum autem fugiat velit totam aspernatur, vel deserunt eius enim neque esse molestiae numquam libero fuga nihil sequi magni accusamus asperiores illum, voluptatem praesentium quos. Quia, magnam.</p>
+    <h4>
+  Pregunta 1</h4>
+    <label for="textarea4">
+      <textarea name="textarea3" id="textarea4"></textarea>
+  &nbsp;</label>
+    <h4> Pregunta 2</h4>
+<label for="textarea2">
+  <textarea name="textarea2" id="textarea2"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 3</h4>
+<label for="textarea5">
+  <textarea name="textarea3" id="textarea5"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 4</h4>
+<label for="textarea6">
+  <textarea name="textarea3" id="textarea6"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 5</h4>
+<label for="textarea7">
+  <textarea name="textarea3" id="textarea7"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 6</h4>
+<label for="textarea8">
+  <textarea name="textarea3" id="textarea8"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 7</h4>
+<label for="textarea9">
+  <textarea name="textarea3" id="textarea9"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 8</h4>
+<label for="textarea10">
+  <textarea name="textarea3" id="textarea10"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 9</h4>
+<label for="textarea11">
+  <textarea name="textarea3" id="textarea11"></textarea>
+  &nbsp;</label>
+<h4> Pregunta 10</h4>
+<label for="textarea12">
+  <textarea name="textarea3" id="textarea12"></textarea>
+  &nbsp;</label>
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+  </section>
+</main>
+<footer>
+  <h3>Elaborado por Francisco Arturo Peryañez Parra</h3>
+</footer>
+</body>
+</html>
